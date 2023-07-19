@@ -194,56 +194,7 @@ display: flex;
   padding-left: 220px;
 } */
 
-/* footer css */
-.third-banner-container{
-  max-width: 1400px;
-  margin: 150px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-}
-.image-div img{
-  width: 100%;
-}
 
-.positon-image {
- position: relative;
- top: 215px;
- right: 165px;
- width: 240px;
-}
-.title-third-banner{
-  text-align: left;
-  font-size: 3rem;
-  
-}
-.third-banner-description{
-  color: #534C64;
-font-family: Work Sans;
-font-size: 1.1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-  
-  
-}
-
-
-
-
-
-
-
-.footer-bg{
-
-  background-color: #0B0223;
-  color: white;
-  padding: 30px;
-
-
-
-}
 .foot-title {
   display: flex;
   justify-content: center;
@@ -297,4 +248,118 @@ line-height: normal;
   justify-content: center;
   gap: 30px;
   
+}
+
+
+.game-banner{
+  margin-bottom: 3.8rem;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  padding: 6.3rem;
+}
+
+/* game option */
+.game-parent{
+   display: flex;
+   padding: 3rem;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 3rem;
+
+}
+.game-single{
+   background-color: #ffffff;
+   border-radius: 3rem;
+   padding-top: 0.5rem;
+   padding-bottom:  0.5rem;
+   padding-left: 1.4rem;
+   padding-right: 1.4rem;
+}
+.game-single-top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.game-single-img{
+  align-items: center;
+}
+.game-single-text{
+   font-size: 1.4rem;
+   font-weight: 800;
+text-align: center;
+padding-left: 0.5rem;
+}
+
+.game-single:hover{
+  border: 0.125rem solid #FF42A5; ;
+  color:  #FF42A5; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+.third-banner-container{
+  max-width: 1400px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.image-div img{
+  width: 100%;
+}
+
+.positon-image {
+ position: relative;
+ top: 215px;
+ right: 165px;
+ width: 240px;
+}
+.title-third-banner{
+  text-align: left;
+  font-size: 3rem;
+  
+}
+.third-banner-description{
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  
+  
+}
+
+footer{
+
+  background-color: #0B0223;
+  color: white;
+  padding: 30px;
+
 }
