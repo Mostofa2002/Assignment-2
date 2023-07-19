@@ -1,7 +1,7 @@
-/* *{
+*{
     padding: 0;
     margin: 0;
-} */
+}
 
 /* nav section */
 body{
@@ -11,20 +11,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .Right-top{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 300px;
+    padding-left: 280px;
 }
 
 .Right-top-text{
-
-    font-size: 40px;
-    
-
+    font-size: 40px; 
 }
 
 .left-top{
@@ -32,8 +30,9 @@ body{
     gap: 25px;
     padding-right: 220px;
     align-items: center;
+    color: #3C354F;
+    font-weight: 500;
 }
-
 .nav-icon{
 
     display: flex;
@@ -41,32 +40,36 @@ body{
     gap: 25px;
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 10px;
-    padding: 5px 20px;
+    padding:  20px;
 }
-
 
 header .banner-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 18rem;
-  
-   
+    gap: 18rem; 
+    margin-top: 25px;
+    
   }
-  header .banner-section > div {
-    flex: 1;
+  .container{
+     padding: 50px;
+    align-items: center;
+
   }
   header .banner-section > div:first-child {
-    height: 60vh;
+    /* height:58vh; */
     background-image: url("../images/Group\ 14.png");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 55vh;
+    
+    
   }
   header .banner-section > div h1 {
-    margin-left: 120px;
+    margin-left: 240px;
     color: #0B0223;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -129,35 +132,17 @@ header .banner-section {
   }
   header .banner-section > div img{
     height: 58vh;
+    
+    
   }
   header .banner-section > div button:hover{
     cursor: pointer;
     background: #000000;
     }
 
-/* responsive */
 
-
-@media screen  and  (max-width: 576px;) {
- 
-  .nav-bar {
-    flex-direction: column;
-  }
-
-  banner-section{
-    flex-direction: column;
-  }
-.Right-top
-{ flex-direction: column;
-  }
- 
-}
-
-
-
-/* 2nd page */
+/* 3rd page */
 .third-P-title{
- 
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -168,9 +153,7 @@ font-style: normal;
 font-weight: 700;
 }
 .third-p-title{
-
 color: #0B0223;
-
 font-family: Work Sans;
 font-size: 48px;
 font-style: normal;
@@ -178,18 +161,20 @@ font-weight: 700;
 line-height: normal;
 }
 .third-page-title{
-text-align: center;
+  text-align: center;
+  margin-top: 20px;
 }
 .forth-p-img{
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 50px;
   
 }
 
 
 
-/* third page  */
+/* forth page  */
 .third-banner-container{
   max-width: 1400px;
   margin: 150px auto;
@@ -283,19 +268,17 @@ footer{
 
   background: #0B0223;
   color: white;
-  padding: 30px;
+  padding: 80px;
 
 }
 .foot-title {
 display: flex;
 justify-content: center;
 gap: 10px;
+align-items: center;
+margin-top: 50px;
 }
-.foot-title > div img{
-width: 86.041px;
-height: 40px;
-padding-top: 36px;
-}
+
 .foot-title > div h1{
 text-align: center;
 font-size: 45px;
@@ -312,6 +295,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+padding: 50px 0 50px 0;
 }
 .foot-nav-x{
 display: flex;
@@ -323,6 +307,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding: 50px 0 50px 0;
 }
 .last {
 color: rgba(255, 255, 255, 0.60);
