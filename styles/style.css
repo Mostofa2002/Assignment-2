@@ -132,5 +132,169 @@ header .banner-section {
   }
   header .banner-section > div button:hover{
     background: #000000;
-  }
+    }
 
+/* third page */
+.third-P-title{
+ 
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.third-p-title{
+
+  color: #0B0223;
+
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.thirdpage-title{
+text-align: center;
+/* margin-top: 25px; */
+
+
+}
+.forth-p-img{
+  display: flex;
+  
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+/* .third-p-paragraph{
+margin-top: 20px;
+display: flex;
+/* gap: 70px; */
+
+
+
+
+/* third-p-discription */
+
+/* .p1{
+
+  padding-left: 220px;
+}
+
+.p3{
+
+  padding-left: 230px;
+}
+.p4{
+
+  padding-left: 220px;
+} */
+
+/* footer css */
+.third-banner-container{
+  max-width: 1400px;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.image-div img{
+  width: 100%;
+}
+
+.positon-image {
+ position: relative;
+ top: 215px;
+ right: 165px;
+ width: 240px;
+}
+.title-third-banner{
+  text-align: left;
+  font-size: 3rem;
+  
+}
+.third-banner-description{
+  color: #534C64;
+font-family: Work Sans;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+  
+  
+}
+
+
+
+
+
+
+
+.footer-bg{
+
+  background-color: #0B0223;
+  color: white;
+  padding: 30px;
+
+
+
+}
+.foot-title {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.foot-title > div img{
+  width: 86.041px;
+  height: 40px;
+  padding-top: 36px;
+}
+.foot-title > div h1{
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.foot-nav{
+  display: flex;
+  justify-content: center;
+ gap: 30px;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foot-nav-x{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.last {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Social{
+  color: white;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
