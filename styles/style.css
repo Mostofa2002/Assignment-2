@@ -112,6 +112,9 @@ header .banner-section {
     text-transform: uppercase;
     margin-right: 15px;
   }
+
+    
+  
   header .banner-section > div .btn-y {
     display: inline-flex;
     padding: 21px 40px;
@@ -130,10 +133,31 @@ header .banner-section {
     height: 58vh;
   }
   header .banner-section > div button:hover{
+    cursor: pointer;
     background: #000000;
     }
 
-/* third page */
+/* responsive */
+
+
+@media screen  and  (max-width: 576px;) {
+ 
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  banner-section{
+    flex-direction: column;
+  }
+.Right-top
+{ flex-direction: column;
+  }
+ 
+}
+
+
+
+/* 2nd page */
 .third-P-title{
  
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
