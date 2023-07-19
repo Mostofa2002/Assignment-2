@@ -95,7 +95,7 @@ header .banner-section {
   }
   header .banner-section > div .btn-ban{
   margin-top: 30px;
-  margin-left: 280px;
+  margin-left: 280px; 
 }
   header .banner-section > div .btn-x {
     display: inline-flex;
