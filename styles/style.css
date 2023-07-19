@@ -89,13 +89,13 @@ header .banner-section {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    padding-left: 325px;
+    padding-left: 290px;
     line-height: normal;
     text-transform: lowercase;
   }
   header .banner-section > div .btn-ban{
   margin-top: 30px;
-  margin-left: 300px;
+  margin-left: 290px;
 }
   header .banner-section > div .btn-x {
     display: inline-flex;
@@ -112,8 +112,6 @@ header .banner-section {
     text-transform: uppercase;
     margin-right: 15px;
   }
-
-    
   
   header .banner-section > div .btn-y {
     display: inline-flex;
