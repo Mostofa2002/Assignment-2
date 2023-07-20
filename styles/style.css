@@ -57,7 +57,7 @@ header .banner-section {
 
   }
   header .banner-section > div:first-child {
-    /* height:58vh; */
+    
     background-image: url("../images/Group\ 14.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,10 +169,14 @@ line-height: normal;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
-  
 }
-
-
+ .p1{
+  color: #534C64;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 15px;
+ }
 
 /* forth page  */
 .third-banner-container{
